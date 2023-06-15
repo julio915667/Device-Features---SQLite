@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "store-app",
-    "slug": "store-app",
+    "name": "tuMayoristaOnline",
+    "slug": "tuMayoristaOnline",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "jsEngine": "jsc"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "jsEngine": "hermes"
   }
 }
